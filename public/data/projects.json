@@ -1,25 +1,29 @@
 [
     {
-        "slug": "cinemate",
+        "slug": "climatewise-weather-app",
+        "title": "ClimateWise",
+        "subtitle": "Weather App – Conditional Fetch, Custom Hook, Shared State",
+        "description": "A React weather application featuring a reusable custom fetch hook, conditional API requests, and dynamic UI updates based on real-time weather data. Includes history-based re-fetching and adaptive backgrounds, demonstrating advanced state management and asynchronous data handling.",
+        "appUrl": "https://www.alkis.me/apps/climatewise/",
+        "githubUrl": "https://github.com/1nv1nc1bl3/my-weather.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/11/climatewise-app-1.jpg"
+    },
+    {
+        "slug": "cinemate-app",
         "title": "CineMate",
-        "subtitle": "React App – TMDB API, State Management",
-        "description": "A movie discovery app using TMDB API.",
-        "image": "/images/projects/cinemate.png",
-        "appUrl": "/apps/cinemate/",
-        "githubUrl": "https://github.com/alkis/..."
+        "subtitle": "Movie Database App – Favorites Management, State Handling, Dynamic UI",
+        "description": "A React movie database application allowing users to browse movies, mark favorites, and manage a personalized watchlist. Built to strengthen skills in state management, conditional rendering, and modular component architecture.",
+        "appUrl": "https://www.alkis.me/apps/cinemate/",
+        "githubUrl": "https://github.com/1nv1nc1bl3/my-movies.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/12/cineMate-app.jpg"
     },
     {
-        "slug": "calculator",
-        "title": "Calculator",
-        "subtitle": "React App – TMDB API, State Management",
-        "description": "A movie discovery app using TMDB API.",
-        "image": "/images/projects/cinemate.png",
-        "appUrl": "/apps/calculator/",
-        "githubUrl": "https://github.com/alkis/..."
-    },
-    {
-        "slug": "todo",
-        "title": "Todo List",
-        "appUrl": "/apps/todo/"
+        "slug": "best-selling-books-app",
+        "title": "New York Times Best Sellers",
+        "subtitle": "Books App – Controlled Inputs, List Rendering, State Management",
+        "description": "An interactive React application that allows users to add, track, and manage a personal collection of books. Built to practice controlled components, dynamic list rendering, and efficient state-driven UI updates.",
+        "appUrl": "https://www.alkis.me/apps/bestsellingbooks",
+        "githubUrl": "https://github.com/1nv1nc1bl3/best-selling-books.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/11/best-selling-books-v2.jpg"
     }
 ]

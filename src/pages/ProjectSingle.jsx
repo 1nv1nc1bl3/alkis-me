@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
+import ProjectHero from '../components/projects/ProjectHero';
+
 export default function ProjectSingle() {
     const { slug } = useParams();
 
@@ -20,33 +22,13 @@ export default function ProjectSingle() {
             });
     }, [slug]);
 
-    if (loading) {
-        return <div>Loading...</div>;
-    }
+    if (loading) return <div>Loading...</div>;
 
-    if (!project) {
-        return <div>Project not found</div>;
-    }
+    if (!project) return <div>Project not found</div>;
 
     return (
-        <div>
-            <h1>{project.title}</h1>
-
-            <h3>{project.subtitle}</h3>
-
-            <p>{project.description}</p>
-
-            <br />
-
-            <a href={project.appUrl} target='_blank'>
-                Visit App
-            </a>
-
-            <br />
-
-            <a href={project.githubUrl} target='_blank'>
-                View Code
-            </a>
-        </div>
+        <main>
+            <ProjectHero project={project} />
+        </main>
     );
 }

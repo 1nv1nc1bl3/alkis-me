@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router';
+import ProjectCard from '../components/projects/ProjectCard';
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
@@ -7,24 +7,18 @@ export default function Projects() {
     useEffect(() => {
         fetch('/data/projects.json')
             .then((res) => res.json())
-            .then((data) => setProjects(data));
+            .then(setProjects);
     }, []);
 
     return (
-        <div>
+        <section>
             <h1>Projects</h1>
 
-            {projects.map((project) => (
-                <div key={project.slug}>
-                    <h2>
-                        <Link to={`/projects/${project.slug}`}>
-                            {project.title}
-                        </Link>
-                    </h2>
-
-                    <a href={project.appUrl}>Open App</a>
-                </div>
-            ))}
-        </div>
+            <div className='projects-grid'>
+                {projects.map((project) => (
+                    <ProjectCard key={project.slug} project={project} />
+                ))}
+            </div>
+        </section>
     );
 }
