@@ -1,0 +1,25 @@
+[
+    {
+        "slug": "cinemate",
+        "title": "CineMate",
+        "subtitle": "React App – TMDB API, State Management",
+        "description": "A movie discovery app using TMDB API.",
+        "image": "/images/projects/cinemate.png",
+        "appUrl": "/apps/cinemate/",
+        "githubUrl": "https://github.com/alkis/..."
+    },
+    {
+        "slug": "calculator",
+        "title": "Calculator",
+        "subtitle": "React App – TMDB API, State Management",
+        "description": "A movie discovery app using TMDB API.",
+        "image": "/images/projects/cinemate.png",
+        "appUrl": "/apps/calculator/",
+        "githubUrl": "https://github.com/alkis/..."
+    },
+    {
+        "slug": "todo",
+        "title": "Todo List",
+        "appUrl": "/apps/todo/"
+    }
+]

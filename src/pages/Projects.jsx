@@ -1,7 +1,15 @@
-import { projects } from '../data/projects';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 
 export default function Projects() {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch('/data/projects.json')
+            .then((res) => res.json())
+            .then((data) => setProjects(data));
+    }, []);
+
     return (
         <div>
             <h1>Projects</h1>
