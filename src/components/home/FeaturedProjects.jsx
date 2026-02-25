@@ -1,34 +1,33 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 
-import ProjectCard from '../components/projects/ProjectCard';
-import Loading from '../components/ui/Loading';
+import ProjectCard from '../projects/ProjectCard';
 
-export default function Projects() {
+export default function FeaturedProjects() {
     const [projects, setProjects] = useState([]);
-
-    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         fetch('/data/projects.json')
             .then((res) => res.json())
             .then((data) => {
-                setProjects(data);
+                // show only first 3 projects
+                const featured = data.slice(0, 3);
 
-                setLoading(false);
+                setProjects(featured);
             });
     }, []);
 
-    if (loading) return <Loading />;
-
     return (
-        <section>
-            <h1>Projects</h1>
+        <section className='featured-projects'>
+            <h2>Featured Projects</h2>
 
             <div className='projects-grid'>
                 {projects.map((project) => (
                     <ProjectCard key={project.slug} project={project} />
                 ))}
             </div>
+
+            <Link to='/projects'>View All Projects →</Link>
         </section>
     );
 }

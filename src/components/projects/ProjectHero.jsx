@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 export default function ProjectHero({ project }) {
     return (
         <section className='project-hero'>
@@ -15,14 +17,24 @@ export default function ProjectHero({ project }) {
                 <p>{project.description}</p>
 
                 <div className='project-hero-links'>
-                    <a href={project.appUrl} target='_blank'>
+                    <a
+                        href={project.appUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
                         Live Application
                     </a>
 
-                    <a href={project.githubUrl} target='_blank'>
+                    <a
+                        href={project.githubUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
                         View Source Code
                     </a>
                 </div>
+
+                <Link to='/projects'>← Back to Projects</Link>
             </div>
         </section>
     );

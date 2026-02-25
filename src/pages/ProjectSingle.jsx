@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import NotFound from './NotFound';
+import Loading from '../components/ui/Loading';
 
 import ProjectHero from '../components/projects/ProjectHero';
 
@@ -22,9 +24,9 @@ export default function ProjectSingle() {
             });
     }, [slug]);
 
-    if (loading) return <div>Loading...</div>;
+    if (loading) return <Loading />;
 
-    if (!project) return <div>Project not found</div>;
+    if (!project) return <NotFound />;
 
     return (
         <main>
