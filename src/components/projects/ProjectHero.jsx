@@ -25,13 +25,15 @@ export default function ProjectHero({ project }) {
                         Live Application
                     </a>
 
-                    <a
-                        href={project.githubUrl}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                    >
-                        View Source Code
-                    </a>
+                    {project.githubUrl && (
+                        <a
+                            href={project.githubUrl}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            View Source Code
+                        </a>
+                    )}
                 </div>
 
                 <Link to='/projects'>← Back to Projects</Link>

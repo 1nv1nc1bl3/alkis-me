@@ -14,13 +14,23 @@ export default function ProjectCard({ project }) {
             </Link>
 
             <div className='project-links'>
-                <a href={project.appUrl} target='_blank'>
+                <a
+                    href={project.appUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
                     Live App
                 </a>
 
-                <a href={project.githubUrl} target='_blank'>
-                    GitHub
-                </a>
+                {project.githubUrl && (
+                    <a
+                        href={project.githubUrl}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        GitHub
+                    </a>
+                )}
             </div>
         </article>
     );

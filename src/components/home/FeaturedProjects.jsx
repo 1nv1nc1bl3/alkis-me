@@ -11,7 +11,7 @@ export default function FeaturedProjects() {
             .then((res) => res.json())
             .then((data) => {
                 // show only first 3 projects
-                const featured = data.slice(0, 3);
+                const featured = data.filter((p) => p.featured);
 
                 setProjects(featured);
             });

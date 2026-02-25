@@ -4,6 +4,7 @@
         "title": "ClimateWise",
         "subtitle": "Weather App – Conditional Fetch, Custom Hook, Shared State",
         "description": "A React weather application featuring a reusable custom fetch hook, conditional API requests, and dynamic UI updates based on real-time weather data. Includes history-based re-fetching and adaptive backgrounds, demonstrating advanced state management and asynchronous data handling.",
+        "featured": true,
         "appUrl": "https://www.alkis.me/apps/climatewise/",
         "githubUrl": "https://github.com/1nv1nc1bl3/my-weather.git",
         "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/11/climatewise-app-1.jpg"
@@ -13,6 +14,7 @@
         "title": "CineMate",
         "subtitle": "Movie Database App – Favorites Management, State Handling, Dynamic UI",
         "description": "A React movie database application allowing users to browse movies, mark favorites, and manage a personalized watchlist. Built to strengthen skills in state management, conditional rendering, and modular component architecture.",
+        "featured": true,
         "appUrl": "https://www.alkis.me/apps/cinemate/",
         "githubUrl": "https://github.com/1nv1nc1bl3/my-movies.git",
         "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/12/cineMate-app.jpg"
@@ -22,8 +24,69 @@
         "title": "New York Times Best Sellers",
         "subtitle": "Books App – Controlled Inputs, List Rendering, State Management",
         "description": "An interactive React application that allows users to add, track, and manage a personal collection of books. Built to practice controlled components, dynamic list rendering, and efficient state-driven UI updates.",
+        "featured": true,
         "appUrl": "https://www.alkis.me/apps/bestsellingbooks",
         "githubUrl": "https://github.com/1nv1nc1bl3/best-selling-books.git",
         "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/11/best-selling-books-v2.jpg"
+    },
+    {
+        "slug": "motivation-quotes-app",
+        "title": "Motivation Quotes",
+        "subtitle": "React App - CSS - JavaScript (ES6)",
+        "description": "A minimalist React app that displays random motivational quotes to inspire users throughout the day. Built with functional components and React hooks, it features a clean design, smooth transitions, just perfect for a quick boost of positivity.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/quotesgenerator",
+        "githubUrl": "https://github.com/1nv1nc1bl3/motivation-quotes.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/10/motivation-app.jpg"
+    },
+    {
+        "slug": "reviews-app",
+        "title": "Reviews",
+        "subtitle": "React Practice App – State, Props, Component Structure",
+        "description": "A React app that cycles through user reviews using forward/back navigation. Built to practice passing data via props, managing state for active items, and structuring UI into clean functional components.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/reviews",
+        "githubUrl": "https://github.com/1nv1nc1bl3/my-reviews.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/11/my-reviews.jpg"
+    },
+    {
+        "slug": "birthday-buddy-app",
+        "title": "Birthday Buddy",
+        "subtitle": "React Practice App – Manage and Clear Contact List",
+        "description": "A simple yet effective React app for practicing state management. It displays upcoming birthdays, allows clearing the full list, and demonstrates the use of props, dynamic rendering, and conditional UI.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/birthdaybuddy",
+        "githubUrl": "https://github.com/1nv1nc1bl3/Birthday-Buddy.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/09/birthday-buddy-app.jpg"
+    },
+    {
+        "slug": "bmi-calculator",
+        "title": "BMI Calculator",
+        "subtitle": "React Practice App – BMI Calculator, Form Handling, State Management",
+        "description": "A simple React app that calculates Body Mass Index based on user input. Built to practice form handling, controlled components, and state-driven UI updates in a clean functional component structure.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/bmicalculator",
+        "githubUrl": "https://github.com/1nv1nc1bl3/bmi-calculator.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2026/02/bmi-calculator.jpg"
+    },
+    {
+        "slug": "calculator",
+        "title": "Calculator",
+        "subtitle": "React Practice App – Calculator, State Logic, Event Handling",
+        "description": "A fully functional calculator built with React, supporting basic arithmetic operations. Focuses on managing complex state logic, handling user input, and structuring interactive UI components.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/calculator",
+        "githubUrl": "",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2026/02/bmi-calculator-1.jpg"
+    },
+    {
+        "slug": "to-do-list",
+        "title": "Todo List",
+        "subtitle": "Todo App - State Management, CRUD Operations",
+        "description": "A classic todo list app that allows users to add, complete, and remove tasks. Developed to practice state management, dynamic rendering, and building reusable functional components.",
+        "featured": false,
+        "appUrl": "https://www.alkis.me/apps/todolist",
+        "githubUrl": "https://github.com/1nv1nc1bl3/new-todo-list.git",
+        "image": "https://www.alkis.me/portfolio/wp-content/uploads/2026/02/todolist.jpg"
     }
 ]
