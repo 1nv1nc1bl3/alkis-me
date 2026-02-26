@@ -4,7 +4,7 @@ export default function ProjectHero({ project }) {
             <div className='max-w-[1800px] mx-auto w-full'>
                 {/* Title Section */}
                 <div className='grid grid-cols-1 md:grid-cols-12 gap-8 mb-20'>
-                    <h1 className='md:col-start-5 md:col-span-8 text-[10vw] md:text-[7vw] font-bold tracking-tighter uppercase leading-[0.9]'>
+                    <h1 className='md:col-start-1 md:col-span-8 text-[10vw] md:text-[7vw] font-light tracking-tighter lowercase leading-[0.9]'>
                         {project.title}
                     </h1>
                 </div>

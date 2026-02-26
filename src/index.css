@@ -1,7 +1,23 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: 'Montreal';
+    src: url('./assets/font/Montreal-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('./assets/font/Montreal-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme {
-    --font-sans: 'Inter', 'System-ui', sans-serif;
+    --font-sans: 'Montreal', system-ui, sans-serif;
     --color-neutral-950: #0a0a0a;
 }
 
@@ -13,7 +29,7 @@
     }
 
     body {
-        /* Το background χρώμα που προτιμάς */
+        font-family: var(--font-sans);
         @apply bg-[#F8F6F2] text-neutral-950;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;

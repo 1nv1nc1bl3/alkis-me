@@ -34,7 +34,7 @@
         "title": "Motivation Quotes",
         "subtitle": "React App - CSS - JavaScript (ES6)",
         "description": "A minimalist React app that displays random motivational quotes to inspire users throughout the day. Built with functional components and React hooks, it features a clean design, smooth transitions, just perfect for a quick boost of positivity.",
-        "featured": false,
+        "featured": true,
         "appUrl": "https://www.alkis.me/apps/quotesgenerator",
         "githubUrl": "https://github.com/1nv1nc1bl3/motivation-quotes.git",
         "image": "https://www.alkis.me/portfolio/wp-content/uploads/2025/10/motivation-app.jpg"

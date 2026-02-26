@@ -13,8 +13,8 @@ export default function About() {
                 <div className='md:col-span-10 flex flex-col gap-16'>
                     <p className='text-3xl md:text-5xl font-bold tracking-tighter leading-[1.1] max-w-4xl'>
                         I'm a Frontend Developer specializing in building modern
-                        web applications with{' '}
-                        <span className='text-neutral-400 italic font-light'>
+                        Wordpress sites and web applications with{' '}
+                        <span className='text-neutral-400 font-light'>
                             React
                         </span>
                         , REST APIs, and scalable component architecture.
