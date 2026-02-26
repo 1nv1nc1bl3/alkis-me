@@ -5,7 +5,7 @@ import Contact from '../components/home/Contact';
 
 export default function Home() {
     return (
-        <main>
+        <>
             <HomeHero />
 
             <About />
@@ -13,6 +13,6 @@ export default function Home() {
             <FeaturedProjects />
 
             <Contact />
-        </main>
+        </>
     );
 }
