@@ -7,12 +7,13 @@
 
 @layer base {
     html {
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y proximity;
         scroll-behavior: smooth;
         overflow-x: hidden;
     }
 
     body {
+        /* Το background χρώμα που προτιμάς */
         @apply bg-[#F8F6F2] text-neutral-950;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -26,6 +27,12 @@
         position: relative;
         overflow: hidden;
     }
+
+    section:last-of-type {
+        scroll-snap-align: none;
+        height: auto;
+        min-height: 100vh;
+    }
 }
 
 @utility no-scrollbar {
@@ -38,6 +45,6 @@
 
 @media (min-width: 768px) {
     html {
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y proximity;
     }
 }
